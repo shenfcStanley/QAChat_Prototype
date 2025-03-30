@@ -8,4 +8,4 @@ In this task, a Q/A chatbot prototype was built to address diverse questions rel
 
 
 
-![Chatbot Illustration](images/chatbot.png)
+![Chatbot Illustration](imgs/workflow.png)
