@@ -13,4 +13,4 @@ The overall workflow design followed a Retrieval Augmented Generation (RAG) arch
 4. Return top K relevant results as context, and design prompt based on context
 5. Post-process and response
 
-<img src="imgs/workflow.png" alt="Chatbot Illustration" width="750"/>
+<img src="imgs/workflow.png" alt="Chatbot Illustration" width="700"/>
