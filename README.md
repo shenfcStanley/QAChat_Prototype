@@ -6,11 +6,11 @@ In this task, a Q/A chatbot prototype was built to address diverse questions rel
 
 ## Overall Workflow
 
-The overall workflow design followed a Retrieval Augmented Generation (RAG) architecture:  
-1. Query submission
-2. Ingest and parse knowledge data (e.g., research paper), construct a vector database
+The overall workflow is designed based on the Retrieval-Augmented Generation (RAG) architecture:
+1. Query Submission
+2. Knowledge (e.g., research paper) Ingestion and Indexing
 3. Semantic search
-4. Return top K relevant results as context, and design prompt based on context
-5. Post-process and response
+4. Contextual Prompt Design
+5. Post-processing and Response Generation
 
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="700"/>
