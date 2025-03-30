@@ -6,6 +6,6 @@ In this task, a Q/A chatbot prototype was built to address diverse questions rel
 
 ## Overall Workflow
 
-
+The overall workflow design followed a Retrieval Augmented Generation (RAG) architecture.  
 
 ![Chatbot Illustration](imgs/workflow.png)
