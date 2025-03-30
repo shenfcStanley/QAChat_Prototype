@@ -6,3 +6,6 @@ In this task, a Q/A chatbot prototype was built to address diverse questions rel
 
 ## Overall Workflow
 
+
+
+![Chatbot Illustration](images/chatbot.png)
