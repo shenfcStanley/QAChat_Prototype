@@ -18,7 +18,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 4. Semantic search
 5. Contextual Prompt Design
-6. Post-processing and Response Generation
+6. Post-processing and Response Generation. Evidence from articles will be provided as reference resources
 
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
