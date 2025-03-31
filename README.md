@@ -23,6 +23,9 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
 ## Lessons Learned from the Clinical Knowledge Embeddings Work
+**Reference:** [Clinical-knowledge-embeddings GitHub Repository](https://github.com/mims-harvard/Clinical-knowledge-embeddings)
+**Paper:** [Clinical-knowledge-embeddings Paper]([https://github.com/mims-harvard/Clinical-knowledge-embeddings](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2))
+
 1. Three Takeaways from the Research
    - 1
    - 2
