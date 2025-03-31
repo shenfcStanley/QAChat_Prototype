@@ -69,7 +69,7 @@ Although I used three models to generate the initial embeddings, here I assume t
 #### Business Metrics
 - Average response time: 50.47 seconds
 - Average LLM-based score (1-5): 4.25
-- Average Human-level score(1-5): 4.19
+- Average Human-level score (1-5): 4.19
 
 
 #### Example QA Pairs
