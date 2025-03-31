@@ -10,15 +10,15 @@ In this task, a Q/A chatbot prototype was built to address diverse questions rel
 The overall workflow is designed based on the Retrieval-Augmented Generation (RAG) architecture:
 1. Query Submission
 2. Knowledge (e.g., research paper) Ingestion and Indexing with Three Models
-   - MiniLM for general purpose
-   - Bio_ClinicalBERT for clinical purpose
-   - Clinical_KGEmb for leveraging medical ontologies and clinical knowledge.  
+   - `MiniLM` for general purpose
+   - `Bio_ClinicalBERT` for clinical purpose
+   - `Clinical_KGEmb` for leveraging medical ontologies and clinical knowledge.  
      **Note:** incorporating the clinical knowledge embeddings research into the prototype  
      **Reference:** [Clinical-knowledge-embeddings GitHub Repository](https://github.com/mims-harvard/Clinical-knowledge-embeddings)
 
 4. Semantic search
 5. Contextual Prompt Design
-6. Post-processing and Response Generation. Evidence from articles will be provided as reference resources
+6. `Mistral-7B` is used as the open source LLM. Response is generated after post-processing. Evidence from articles will be provided as reference resources.
 
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
