@@ -56,10 +56,8 @@ Three embeddings can be used:
 <pre>streamlit run chat_app.py</pre>
 <img src="imgs/webapp.png" alt="Chatbot UI" width="550"/>  
 
-#### 3. A Jupyter notebook `tutorial.ipynb` under the `tutorial` directory covers a toy example of the Q&A chatbot
-
-#### 4. The `test.py` script in the `tests` directory handles data augmentation using few-shot learning and includes prompts for scoring answers based on contextual information. 
-`Zephyr-7B-Beta` was utilized as a third-party language model for both data augmentation and automated result scoring.
+#### 3. The `test_eval.py` script in the `tests` directory handles is used to generate answers for 16 tested queries 'queries.txt' stored under 'tests/testdata'.  
+`Zephyr-7B-Beta` was utilized as a third-party language model for query/data augmentation and ChatGPT-4o was used for automated result scoring.
 
 ## Assumptions
 See [Assumption.md](Assumption.md) for full details.
