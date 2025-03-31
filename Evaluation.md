@@ -11,17 +11,9 @@ This evaluation assesses the chatbot’s ability to generate clinically accurate
 `ChatGPT-4o` was used for automated result scoring. Prompts for query augmentation and auto scoring is under `tests\prompts`. I serve as the domain expert to conduct human-level scoring.
 
 
-#### Business Metrics
-- Mean response time (sec): 50.47 
-- Mean LLM-based score (1-5): 4.25
-- Mean Human-level score (1-5): 4.19
-- Correlation between LLM scorer and human scorer: 0.91
-- Acceptable Answer Rate (Human Score ≥ 4): 81.2%
-- Acceptable Answer Rate (LLM ≥ 4): 87.5%
-
-
 ## Test Set
-A total of 16 queries were used, balanced across user types:
+A total of 16 queries were used, balanced across user types. Half of the queries were generated directly, and the other half were semantically augmented to simulate varied user phrasing.
+
 | Category          | Example                                    |
 |-------------------|--------------------------------------------|
 | Basic-Original   | "What is HER2?"                            |
@@ -42,3 +34,25 @@ A total of 16 queries were used, balanced across user types:
 | Others-Augmented | "Did the study mention any potential long-term side effects of HER2-targeted treatment, and how were they monitored?" |
 
 
+#### Business Metrics
+- Mean response time (sec): 50.47 
+- Mean LLM-based score (1-5): 4.25
+- Mean Human-level score (1-5): 4.19
+- Acceptable Answer Rate (Human Score ≥ 4): 81.2%
+- Acceptable Answer Rate (LLM ≥ 4): 87.5%
+
+### Human vs. LLM Score Correlation
+
+To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.
+
+- **Correlation**: 0.82
+
+This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
+
+
+### 🚀 Next Steps and Future Evaluation Plans
+
+- Extend evaluation to include all three embedding models in a side-by-side comparison.
+- Increase query volume and include multi-hop reasoning questions.
+- Incorporate real-world user feedback and satisfaction tracking (e.g., thumbs up/down in UI).
+- Perform expert adjudication of borderline cases and add qualitative annotations.
