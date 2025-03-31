@@ -35,4 +35,4 @@ Three embeddings can be used:
 
 2. To run the Streamlit UI, go to interface, and then <pre>```streamlit run streamlit_app.py```<pre>
 
-<img src="imgs/chatbot_UI.png" alt="Chatbot UI" width="700"/>
+<img src="imgs/webapp.png" alt="Chatbot UI" width="700"/>
