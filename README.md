@@ -51,6 +51,11 @@ Three embeddings can be used:
 #### 4. The `test.py` script in the `tests` directory handles data augmentation using few-shot learning and includes prompts for scoring answers based on contextual information. 
 `Zephyr-7B-Beta` was utilized as a third-party language model for both data augmentation and automated result scoring.
 
+## Assumptions
+1. xx
+2. xxx
+3. xxx
+
 ## Comprehensive Evaluation
 
 I evaluated the model on both synthetic and real-world clinical QA pairs. Key results:
@@ -65,3 +70,5 @@ I evaluated the model on both synthetic and real-world clinical QA pairs. Key re
 | What is HER2? | A protein... | HER2 is a protein... | ✅ |
 
 See [Evaluation.md](Evaluation.md) for full details.
+
+
