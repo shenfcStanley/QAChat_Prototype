@@ -31,7 +31,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
    - 2
    - 3
 2. Why it is important to Humana
-3. How to incorporate it into the prototype?
+3. How to incorporate it into the prototype?  
    Basically, I used the embeddings (n=67,124) trained over the clinical knowledge graph as the initial embeddings for vector DB construction. The original graph data `new_node_map_df.csv` and the embeddings `full_h_embed_hms.pkl` for clinical knowledge embeddings can be found here: [Clinical-knowledge-embeddings Data](clinical_KGEmb)
 ## Installation Instructions  
 
