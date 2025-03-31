@@ -44,6 +44,8 @@ Three embeddings can be used:
 
 ### 3. A Jupyter notebook tutorial.ipynb under the tutorial directory covers a toy example of the Q&A chatbot
 
+### 4. test.py under the test directory covers the data augmentation steps to generate synthetic queries based on few shot learning, and also include the prompt about scoring the answers based on contextual information
+
+
 ## Comprehensive Evaluation
 
-### 4. To run the test code
