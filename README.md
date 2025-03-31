@@ -49,6 +49,8 @@ Three embeddings can be used:
 
 ## Comprehensive Evaluation
 
+I evaluated the model on both synthetic and real-world clinical QA pairs. Key results:
+
 #### Metrics
 - Accuracy: 87.5%
 - BLEU Score: 0.62
@@ -58,3 +60,4 @@ Three embeddings can be used:
 |----------|--------|--------------|----------|
 | What is HER2? | A protein... | HER2 is a protein... | ✅ |
 
+See [evaluation.md](evaluation.md) for full details.
