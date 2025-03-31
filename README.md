@@ -74,7 +74,7 @@ Although I used three models to generate the initial embeddings, here I assume t
 - Acceptable Answer Rate (LLM ≥ 4): 87.5%
 
 To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.
-- **Correlation**: 0.91
+- **Correlation**: 0.91  
 This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
 
 
