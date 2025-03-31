@@ -33,6 +33,5 @@ Three embeddings can be used:
 - 2). clinical embeddings from Bio_ClinicalBERT;
 - 3). clinical knowledge embeddings from the research paper. The embeddings data and knowledge graph are downloaded and saved in the clinical_KGEmb folder (ref: https://github.com/mims-harvard/Clinical-knowledge-embeddings/tree/main)
 
-2. To run the Streamlit UI, go to interface, and then  
-   <pre>```streamlit run streamlit_app.py```</pre>
+2. To run the Streamlit UI, go to interface, and then <pre>```streamlit run streamlit_app.py```</pre>
 <img src="imgs/webapp.png" alt="Chatbot UI" width="700"/>
