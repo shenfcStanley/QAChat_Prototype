@@ -70,9 +70,9 @@ Although I used three models to generate the initial embeddings, here I assume t
 - Mean response time (sec): 50.47 
 - Mean LLM-based score (1-5): 4.25
 - Mean Human-level score (1-5): 4.19
-- Correlation: 0.82
-- Acceptable Answer Rate (Human Score ≥ 4): 87.5%
-- Acceptable Answer Rate (LLM ≥ 4): 90%
+- Correlation between LLM scorer and human scorer: 0.91
+- Acceptable Answer Rate (Human Score ≥ 4): 81.2%
+- Acceptable Answer Rate (LLM ≥ 4): 87.5%
 
 
 
