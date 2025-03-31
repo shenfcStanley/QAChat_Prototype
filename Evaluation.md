@@ -50,9 +50,29 @@ To estimate the reliability of using LLM for automatic scoring, Pearson correlat
 This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
 
 
-### 🚀 Next Steps and Future Evaluation Plans
+### Continuous Improvement Strategy
 
-- Extend evaluation to include all three embedding models in a side-by-side comparison.
-- Increase query volume and include multi-hop reasoning questions.
-- Incorporate real-world user feedback and satisfaction tracking (e.g., thumbs up/down in UI).
-- Perform expert adjudication of borderline cases and add qualitative annotations.
+To ensure the chatbot remains reliable and clinically relevant over time, I propose the following continuous improvement process:
+
+1. **User Feedback Collection**
+   - In a production setting, collect explicit feedback (e.g., 👍 / 👎 buttons) or satisfaction ratings.
+   - Capture implicit signals like query rephrasing, follow-up questions, and session abandonment.
+
+2. **Performance Monitoring**
+   - Maintain a benchmark test set (e.g., the current 16 queries) for weekly/monthly evaluations.
+   - Track KPIs such as accuracy, evidence grounding, and latency over time.
+   - Monitor drift in model responses or embedding performance.
+
+3. **Automated Scoring & Review**
+   - Use Zephyr-based scoring as a fast feedback proxy.
+   - Periodically compare LLM-based and human scores to maintain alignment.
+
+4. **Embedding & Prompt Updates**
+   - Swap in updated clinical embeddings or fine-tuned sentence encoders as new clinical vocabularies emerge.
+   - Refine the prompt template based on answer quality, hallucination patterns, or user confusion.
+
+5. **Answer Quality Audits**
+   - Spot-check borderline responses (score 3–4) with clinical experts.
+   - Log low-rated queries for retraining or fine-tuning.
+
+This loop establishes a scalable framework for maintaining chatbot quality over time, aligned with real-world user expectations and clinical rigor.
