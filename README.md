@@ -22,7 +22,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 <pre>```git clone https://github.com/shenfcStanley/QAChat_Prototype.git
 cd QAChat_Prototype
-pip install -r requirements.txt``` </pre>  
+pip install -r requirements.txt```</pre>  
 
 In order to use OCR for PDF parsing, you need to install tesseract here: https://tesseract-ocr.github.io/tessdoc/Installation.html. After installation, you need to add the tesseract path to the system environment
 
