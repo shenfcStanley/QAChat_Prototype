@@ -67,9 +67,11 @@ See [Assumption.md](Assumption.md) for full details.
 Although I used three models to generate the initial embeddings, here I assume the Clinical-Knowledge-Embeddings yield the optimal performance overall based on the initial check, and showcase the evaluation on all 16 queries using this model to assess response accuracy, quality, evidence grounding, and response time
 
 #### Business Metrics
-- Average response time: 50.47 seconds
-- Average LLM-based score (1-5): 4.25
-- Average Human-level score (1-5): 4.19
+- Mean response time (sec): 50.47 
+- Mean LLM-based score (1-5): 4.25
+- Mean Human-level score (1-5): 4.19
+- Correlation: 0.82
+- Acceptable Answers (Score ≥ 4): 87.5%
 
 
 #### Example QA Pairs
