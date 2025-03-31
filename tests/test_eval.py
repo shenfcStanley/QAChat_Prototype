@@ -6,14 +6,22 @@ from langchain.prompts import PromptTemplate
 from difflib import SequenceMatcher
 from process_KGEmb import ClinicalKGEmbedding
 import os
+import time
+import csv
+from datetime import datetime
+
 os.environ["OCR_AGENT"] = "tesseract"
 
-def find_best_sentence(answer, source_docs):
+def find_best_sentence_and_all_context(answer, source_docs):
     best_match = ""
     best_score = 0
     best_meta = {}
+    all_context = []
 
     for doc in source_docs:
+        snippet = doc.page_content.strip()
+        all_context.append(f"{snippet}")
+
         sentences = doc.page_content.split(". ")
         for sent in sentences:
             score = SequenceMatcher(None, sent.lower(), answer.lower()).ratio()
@@ -21,9 +29,13 @@ def find_best_sentence(answer, source_docs):
                 best_match = sent.strip()
                 best_meta = doc.metadata
                 best_score = score
-    return best_match, best_meta, best_score
 
-def shorten_sentence(text, max_words=30):
+    # Join snippets to form the whole context
+    combined_context = ";;".join(all_context)
+
+    return best_match, best_meta, best_score, combined_context
+
+def shorten_sentence(text, max_words=200):
     words = text.split()
     return " ".join(words[:max_words]) + ("..." if len(words) > max_words else "")
 
@@ -33,7 +45,6 @@ chunks = processor.load_and_split(pdf_path)
 
 print(f"Loaded {len(chunks)} chunks from the PDF.")
 print(chunks[0].page_content)  # Example output
-
 
 # uncomment the following code to use MiniLM
 ## embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
@@ -50,11 +61,10 @@ embedding_model = ClinicalKGEmbedding(
 # vector db
 from langchain.vectorstores import FAISS
 db = FAISS.from_documents(chunks, embedding_model)
-retriever = db.as_retriever(search_kwargs={"k": 4})
+retriever = db.as_retriever(search_kwargs={"k": 2})
 print("Retriever:", retriever)
 
 llm = LlamaCpp(
-    #model_path="models/llama-2-7b.Q4_K_M.gguf",
     model_path="models/Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf",
     n_ctx=2048,
     temperature=0.1,
@@ -74,7 +84,6 @@ Question: {question}
 Answer:"""
 )
 
-
 qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
     retriever=retriever,
@@ -83,20 +92,30 @@ qa_chain = RetrievalQA.from_chain_type(
     return_source_documents=True
 )
 
+with open('tests/testdata/queries.txt', 'r', encoding='utf-8') as file:
+    queries = [line.strip() for line in file]
 
-query = "What is the role of HER2 in breast cancer?"
-result = qa_chain.invoke(query)
+# output evaluation file
+output_path = "eval_results_4.csv"
+fieldnames = ["query", "answer", "context", "response_time_sec"]
 
-best_sentence, meta, score = find_best_sentence(result["result"], result["source_documents"])
-short_snippet = shorten_sentence(best_sentence)
+with open(output_path, mode="w", newline='', encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
 
-print("Answer:\n")
-print(result["result"])
+    for query in queries:
+        start_time = time.time()
+        result = qa_chain.invoke(query)
+        elapsed = time.time() - start_time
+        answer = result["result"]
+        best_sentence, meta, score, combined_context = find_best_sentence_and_all_context(answer, result["source_documents"])
+        short_snippet = shorten_sentence(combined_context)
 
-print("\n Source Evidence from Paper:")
-print('len of souce_doc', len(result["source_documents"]))
-for i, doc in enumerate(result["source_documents"], start=1):
-    page = doc.metadata.get("page", "?")
-    snippet = doc.page_content[:400].strip()
-    print(f'{i}. " {snippet}..."')
-    print()
+        writer.writerow({
+            "query": query,
+            "answer": answer,
+            "context": short_snippet,
+            "response_time_sec": round(elapsed, 2)
+        })
+
+print(f"\n Saved results to: {output_path}")
