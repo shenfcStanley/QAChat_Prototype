@@ -20,3 +20,25 @@ This evaluation assesses the chatbot’s ability to generate clinically accurate
 - Acceptable Answer Rate (LLM ≥ 4): 87.5%
 
 
+## Test Set
+A total of 16 queries were used, balanced across user types:
+| Category          | Example                                    |
+|-------------------|--------------------------------------------|
+| Basic-Original   | "What is HER2?"                            |
+| Basic-Original   | "Is HER2 a gene or a protein?"                            |
+| Clinical-Original  | "What treatment options are mentioned for HER2-positive patients?" |
+| Clinical-Origiinal  | "How does HER2 amplification affect survival rates?" |
+| Scientific-Origiinal  | "How many patients were included in the HER2 study?" |
+| Scientific-Origiinal  | "What statistical methods were used to evaluate HER2’s effect on outcomes?" |
+| Others-Original | "Who discovered HER2?" |
+| Others-Original | "Is HER2 mentioned in the conclusion?" |
+| Basic-Augmented   | "What is HER2 and how is it related to breast cancer?"                            |
+| Basic-Augmented   | "Can you explain what HER2 amplification means in the context of breast cancer?"                            |
+| Clinical-Augmented  | "Which drugs are recommended for HER2-positive breast cancer patients, and at what dosage?" |
+| Clinical-Augmented  | "What is the overall survival rate for HER2-positive breast cancer patients after treatment?" |
+| Scientific-Augmented  | "How many patients with metastatic breast cancer were included in the HER2 study, and how were they recruited?" |
+| Scientific-Augmented  | "Were any adverse events reported during the HER2 study, and how were they managed?" |
+| Others-Augmented | "Were any alternative therapies to HER2-targeted treatment tested in the study, and if so, how effective were they?" |
+| Others-Augmented | "Did the study mention any potential long-term side effects of HER2-targeted treatment, and how were they monitored?" |
+
+
