@@ -53,7 +53,7 @@ In this task, the open-source LLM model "Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.ggu
 Three embeddings can be used: 
 - a). general embeddings from `all-MiniLM-L6-v2`;
 - b). clinical embeddings from `Bio_ClinicalBERT`;
-- c). clinical knowledge embeddings from the research paper. The embeddings data and knowledge graph are downloaded and saved in the clinical_KGEmb folder (ref: https://github.com/mims-harvard/Clinical-knowledge-embeddings/tree/main)
+- c). `clinical knowledge embeddings` from the research paper. The embeddings data and knowledge graph are downloaded and saved in the clinical_KGEmb folder (ref: https://github.com/mims-harvard/Clinical-knowledge-embeddings/tree/main)
 #### 2. To run the Streamlit UI, go to the `interface` folder:
 <pre>streamlit run chat_app.py</pre>
 <img src="imgs/webapp.png" alt="Chatbot UI" width="550"/>  
