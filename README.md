@@ -28,5 +28,8 @@ In this task, the open-source LLM model "Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.ggu
 ## How to Run the Code
 
 To run the code, go to app, and then <pre> ```python chatbot.py``` </pre>  
-Three embeddings can be used: * 1). general embeddings from all-MiniLM-L6-v2;   * 2). clinical embeddings from Bio_ClinicalBERT;   * 3). clinical knowledge embeddings from the research paper. The embeddings data and knowledge graph are downloaded and saved in the clinical_KGEmb folder (ref: https://github.com/mims-harvard/Clinical-knowledge-embeddings/tree/main)
+Three embeddings can be used: 
+- 1). general embeddings from all-MiniLM-L6-v2;
+- 2). clinical embeddings from Bio_ClinicalBERT;
+- 3). clinical knowledge embeddings from the research paper. The embeddings data and knowledge graph are downloaded and saved in the clinical_KGEmb folder (ref: https://github.com/mims-harvard/Clinical-knowledge-embeddings/tree/main)
 
