@@ -76,7 +76,8 @@ Although I used three models to generate the initial embeddings, here I assume t
 | Question | Answer | Model Output | LLM-based Score | Human-level Score |
 |----------|--------|--------------|----------|----------|
 | What is HER2? | A protein... | HER2 is a protein... | 5 | 5 |
-| How does HER2 amplification... |   HER2 amplification affects... | Picornavirions have relative molecular... | 4 | 3 |
+| How does HER2 ampli... |   HER2 amplification... | Picornavirions have relative ... | 4 | 3 |
+
 See [Evaluation.md](Evaluation.md) for full details.
 
 
