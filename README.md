@@ -1,11 +1,11 @@
 # QAChat_Prototype
 
-## Description
+### Description
 This is the take-home case study/real world problem exercise finished by **Feichen Shen**.  
 
 In this task, a Q/A chatbot prototype was built to address diverse questions related to a specific research paper. The work also clearly presented comprehensive evaluations/testing/KPI definition and detailed how clinical network embeddings can be incorporated.
 
-## Overall Workflow
+### Overall Workflow
 
 The overall workflow is designed based on the Retrieval-Augmented Generation (RAG) architecture:
 1. Query Submission
@@ -19,7 +19,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
-## Installation Instructions  
+### Installation Instructions  
 
 <pre>
 git clone https://github.com/shenfcStanley/QAChat_Prototype.git
@@ -31,7 +31,7 @@ In order to use OCR for PDF parsing, you need to install tesseract here: https:/
 
 In this task, the open-source LLM model "Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf" is used, you need to download the model from the huggingface hub to the models folder, using huggingface-cli: <pre> ```huggingface-cli download NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf --local-dir models --local-dir-use-symlinks False```</pre>
 
-## How to Run the Code
+### How to Run the Code
 
 #### 1. To run the code locally, navigate to the `app` directory:
 <pre>python chatbot.py</pre>
@@ -48,7 +48,7 @@ Three embeddings can be used:
 #### 4. The `test.py` script in the `test` directory handles data augmentation using few-shot learning and includes prompts for scoring answers based on contextual information. 
 `Zephyr-7B-Beta` was utilized as a third-party language model for both data augmentation and automated result scoring.
 
-## Comprehensive Evaluation
+### Comprehensive Evaluation
 
 I evaluated the model on both synthetic and real-world clinical QA pairs. Key results:
 
