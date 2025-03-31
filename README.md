@@ -71,7 +71,9 @@ Although I used three models to generate the initial embeddings, here I assume t
 - Mean LLM-based score (1-5): 4.25
 - Mean Human-level score (1-5): 4.19
 - Correlation: 0.82
-- Acceptable Answers (Score ≥ 4): 87.5%
+- Acceptable Answer Rate (Human Score ≥ 4): 87.5%
+- Acceptable Answer Rate (LLM ≥ 4): 90%
+
 
 
 #### Example QA Pairs
