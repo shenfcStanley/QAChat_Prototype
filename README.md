@@ -60,4 +60,4 @@ I evaluated the model on both synthetic and real-world clinical QA pairs. Key re
 |----------|--------|--------------|----------|
 | What is HER2? | A protein... | HER2 is a protein... | ✅ |
 
-See [evaluation.md](evaluation.md) for full details.
+See [Evaluation.md](Evaluation.md) for full details.
