@@ -27,7 +27,7 @@ In this task, the open-source LLM model "Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.ggu
 
 ## How to Run the Code
 
-1. To run the code, go to app, and then <pre> ```python chatbot.py``` </pre>  
+1. To run the code, go to app, and then <pre> ```python chatbot.py``` </pre>
 Three embeddings can be used: 
 - a). general embeddings from all-MiniLM-L6-v2;
 - b). clinical embeddings from Bio_ClinicalBERT;
