@@ -45,7 +45,7 @@ Three embeddings can be used:
 
 #### 3. A Jupyter notebook `tutorial.ipynb` under the `tutorial` directory covers a toy example of the Q&A chatbot
 
-#### 4. The `test.py` script in the `test` directory handles data augmentation using few-shot learning and includes prompts for scoring answers based on contextual information. 
+#### 4. The `test.py` script in the `tests` directory handles data augmentation using few-shot learning and includes prompts for scoring answers based on contextual information. 
 `Zephyr-7B-Beta` was utilized as a third-party language model for both data augmentation and automated result scoring.
 
 ## Comprehensive Evaluation
