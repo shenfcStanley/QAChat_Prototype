@@ -20,7 +20,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 ## Installation Instructions  
 
-<pre> ```git clone https://github.com/shenfcStanley/QAChat_Prototype.git
+<pre>```git clone https://github.com/shenfcStanley/QAChat_Prototype.git
 cd QAChat_Prototype
 pip install -r requirements.txt``` </pre>  
 
