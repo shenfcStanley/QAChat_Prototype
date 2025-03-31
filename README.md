@@ -22,6 +22,8 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
+## Lessons Learned from the Clinical Knowledge Embeddings Work
+
 ## Installation Instructions  
 
 <pre>
