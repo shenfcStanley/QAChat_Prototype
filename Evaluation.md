@@ -12,7 +12,7 @@ This evaluation assesses the chatbot’s ability to generate clinically accurate
 
 
 ## Test Set
-A total of 16 queries were used, balanced across user types. Half of the queries were generated directly, and the other half were semantically augmented to simulate varied user phrasing.
+A total of 16 queries were used, balanced across user types. Half of the queries were generated directly, and the other half were semantically augmented to simulate varied user phrasing. Please go to [comprehensive test results](tests/testresults)
 
 | Category          | Example                                    |
 |-------------------|--------------------------------------------|
