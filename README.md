@@ -13,6 +13,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
    - MiniLM for general purpose
    - Bio_ClinicalBERT for clinical purpose
    - Clinical_KGEmb for leveraging medical ontologies and clinical knowledge. **[** **Note:** incorporating the clinical knowledge embeddings research into the prototype **]**
+     **Reference:** [Clinical-knowledge-embeddings GitHub Repository]([https://github.com/liu-group/Clinical_KGEmb](https://github.com/mims-harvard/Clinical-knowledge-embeddings))
 
 4. Semantic search
 5. Contextual Prompt Design
