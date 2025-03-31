@@ -52,9 +52,7 @@ Three embeddings can be used:
 `Zephyr-7B-Beta` was utilized as a third-party language model for both data augmentation and automated result scoring.
 
 ## Assumptions
-1. xx
-2. xxx
-3. xxx
+See [Assumption.md](Assumption.md) for full details.
 
 ## Comprehensive Evaluation
 
