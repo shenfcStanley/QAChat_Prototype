@@ -49,3 +49,12 @@ Three embeddings can be used:
 
 ## Comprehensive Evaluation
 
+## Metrics
+- Accuracy: 87.5%
+- BLEU Score: 0.62
+
+## Example QA Pairs
+| Question | Answer | Model Output | Correct? |
+|----------|--------|--------------|----------|
+| What is HER2? | A protein... | HER2 is a protein... | ✅ |
+
