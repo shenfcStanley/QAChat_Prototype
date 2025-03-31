@@ -73,7 +73,7 @@ Although I used three models to generate the initial embeddings, here I assume t
 
 
 #### Example QA Pairs
-| Question | Answer | Model Output | LLM-based Score | Human-level Score |
+| Question | Answer | Context | LLM-based Score | Human-level Score |
 |----------|--------|--------------|----------|----------|
 | What is HER2? | A protein... | HER2 is a protein... | 5 | 5 |
 | How does HER2 ampli... |   HER2 amplification... | Picornavirions have relative ... | 4 | 3 |
