@@ -12,7 +12,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 2. Knowledge (e.g., research paper) Ingestion and Indexing with Three Models
    - MiniLM for general purpose
    - Bio_ClinicalBERT for clinical purpose
-   - Clinical_KGEmb for leveraging medical ontologies and clinical knowledge
+   - Clinical_KGEmb for leveraging medical ontologies and clinical knowledge. ** Note: **incorporating the clinical knowledge embeddings research into the prototype
 4. Semantic search
 5. Contextual Prompt Design
 6. Post-processing and Response Generation
