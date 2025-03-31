@@ -34,7 +34,7 @@ In order to use OCR for PDF parsing, you need to install tesseract here: https:/
 
 In this task, the open-source LLM model "Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf" is used, you need to download the model from the huggingface hub to the models folder, using huggingface-cli: <pre> ```huggingface-cli download NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf --local-dir models --local-dir-use-symlinks False```</pre>
 
-## How to Run the Code
+## How to Run the Codes
 
 #### 1. To run the code locally, navigate to the `app` directory:
 <pre>python chatbot.py</pre>
