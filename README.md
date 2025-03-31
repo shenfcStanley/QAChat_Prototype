@@ -41,5 +41,6 @@ Three embeddings can be used:
 ### 2. To run the Streamlit UI, go to the interface folder:
 <pre>streamlit run chat_app.py</pre>
 <img src="imgs/webapp.png" alt="Chatbot UI" width="700"/>
-### 3. To run the Jupyter notebook tutorial.ipynb, go to the tutorial folder
+### 3. To run the Jupyter notebook tutorial.ipynb, go to the tutorial folder:
+
 ### 4. To run the test code
