@@ -16,7 +16,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 5. Contextual Prompt Design
 6. Post-processing and Response Generation
 
-<img src="imgs/workflow.png" alt="Chatbot Illustration" width="700"/>
+<img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
 ## Installation Instructions  
 
@@ -40,7 +40,7 @@ Three embeddings can be used:
 - c). clinical knowledge embeddings from the research paper. The embeddings data and knowledge graph are downloaded and saved in the clinical_KGEmb folder (ref: https://github.com/mims-harvard/Clinical-knowledge-embeddings/tree/main)
 ### 2. To run the Streamlit UI, go to the interface folder:
 <pre>streamlit run chat_app.py</pre>
-<img src="imgs/webapp.png" alt="Chatbot UI" width="700"/>  
+<img src="imgs/webapp.png" alt="Chatbot UI" width="550"/>  
 
 ### 3. To run the Jupyter notebook tutorial.ipynb, go to the tutorial folder:
 
