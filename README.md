@@ -64,14 +64,16 @@ See [Assumption.md](Assumption.md) for full details.
 
 ## Comprehensive Evaluation
 
-I evaluated the model on both synthetic and real-world clinical QA pairs. Key results:
+Although I used three models to generate the initial embeddings, here I assume the Clinical-Knowledge-Embeddings yield the optimal performance overall based on the initial check, and showcase the evaluation on all 16 queries using this model to assess response accuracy, quality, evidence grounding, and response time
 
-#### Metrics
-- Accuracy: 87.5%
-- BLEU Score: 0.62
+#### Business Metrics
+- Average response time:
+- Average LLM-based score (1-5):
+- Average Human-level score():
+
 
 #### Example QA Pairs
-| Question | Answer | Model Output | Correct? |
+| Question | Answer | Model Output | LLM-based Score | Human-level Score |
 |----------|--------|--------------|----------|
 | What is HER2? | A protein... | HER2 is a protein... | ✅ |
 
