@@ -27,7 +27,8 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
    - 1
    - 2
    - 3
-
+2. Why it is important to Humana
+3. How to incorporate it into the prototype (please refer to step 2 in the workflow)
 ## Installation Instructions  
 
 <pre>
