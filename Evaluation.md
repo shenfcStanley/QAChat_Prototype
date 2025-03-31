@@ -45,7 +45,7 @@ A total of 16 queries were used, balanced across user types. Half of the queries
 
 To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.
 
-- **Correlation**: 0.82
+- **Correlation**: 0.91
 
 This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
 
