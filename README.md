@@ -69,7 +69,7 @@ Although I used three models to generate the initial embeddings, here I assume t
 #### Business Metrics
 - Average response time:
 - Average LLM-based score (1-5):
-- Average Human-level score():
+- Average Human-level score(1-5):
 
 
 #### Example QA Pairs
