@@ -6,6 +6,8 @@ from langchain.prompts import PromptTemplate
 from difflib import SequenceMatcher
 from process_KGEmb import ClinicalKGEmbedding
 import os
+from langchain.vectorstores import FAISS
+
 os.environ["OCR_AGENT"] = "tesseract"
 
 def find_best_sentence(answer, source_docs):
@@ -48,7 +50,6 @@ embedding_model = ClinicalKGEmbedding(
     )
 
 # vector db
-from langchain.vectorstores import FAISS
 db = FAISS.from_documents(chunks, embedding_model)
 retriever = db.as_retriever(search_kwargs={"k": 4})
 print("Retriever:", retriever)
