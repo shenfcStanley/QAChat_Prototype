@@ -108,3 +108,7 @@ See [Evaluation.md](Evaluation.md) for full details.
 - OS: Win 11
 - Hardware: 16 GB RAM, 13th Gen Intel(R) Core(TM) i7-1355U   1.70 GHz
 
+## Author
+
+- **Feichen Shen** – [@shenfcStanley](https://github.com/shenfcStanley/QAChat_Prototype/tree/main)  
+
