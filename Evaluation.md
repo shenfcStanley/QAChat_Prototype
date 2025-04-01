@@ -67,21 +67,17 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
 1. **User Feedback Collection**
    - In a production setting, collect explicit feedback (e.g., good or bad buttons) or satisfaction ratings. Buttons can be added into the UI.
    - Capture implicit signals like query rephrasing, follow-up questions, and session abandonment.
-
 2. **Performance Monitoring**
    - Maintain a benchmark test set (e.g., the current 16 queries) for weekly/monthly evaluations.
    - Track KPIs such as accuracy, evidence grounding, and latency over time.
    - Monitor drift in model responses or embedding performance.
-
 3. **Automated Scoring & Review**
    - Use LLM-based scoring as a fast feedback proxy.
    - Periodically compare LLM-based and human scores to maintain alignment.
-
 4. **Embeddings Updates**
    - I have led the efforts to develop node embeddings for the Human Phenotype Ontology (HPO) during my time at Mayo Clinic. The model was named as `HPO2Vec+`. It worth to explore if this work can be incorporated into the knowledge embeddings as a complementary piece.  
  __Shen, Feichen__, et al. "HPO2Vec+: Leveraging heterogeneous knowledge resources to enrich node embeddings for the Human Phenotype Ontology." Journal of 
  biomedical informatics 96 (2019): 103246. [DOI Link](https://www.sciencedirect.com/science/article/pii/S1532046419301650?via%3Dihub)
-
 5. **Answer Quality Audits**
    - Spot-check borderline responses (score 3–4) with clinical experts.
    - Log low-rated queries for retraining or fine-tuning.
