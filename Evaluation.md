@@ -65,7 +65,7 @@ To understand the alignment between LLM-based scoring and human evaluation, we g
 To ensure the chatbot remains reliable and clinically relevant over time, I propose the following continuous improvement process:
 
 1. **User Feedback Collection**
-   - In a production setting, collect explicit feedback (e.g., 👍 / 👎 buttons) or satisfaction ratings.
+   - In a production setting, collect explicit feedback (e.g., good or bad buttons) or satisfaction ratings. Buttons can be added into the UI.
    - Capture implicit signals like query rephrasing, follow-up questions, and session abandonment.
 
 2. **Performance Monitoring**
@@ -74,7 +74,7 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
    - Monitor drift in model responses or embedding performance.
 
 3. **Automated Scoring & Review**
-   - Use Zephyr-based scoring as a fast feedback proxy.
+   - Use LLM-based scoring as a fast feedback proxy.
    - Periodically compare LLM-based and human scores to maintain alignment.
 
 4. **Embedding & Prompt Updates**
@@ -85,4 +85,4 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
    - Spot-check borderline responses (score 3–4) with clinical experts.
    - Log low-rated queries for retraining or fine-tuning.
 
-This loop establishes a scalable framework for maintaining chatbot quality over time, aligned with real-world user expectations and clinical rigor.
+This loop establishes a scalable framework for maintaining chatbot quality over time, aligned with real-world user and clinical expectations.
