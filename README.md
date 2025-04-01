@@ -34,7 +34,11 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
    - c. The embeddings uncover hidden relationships between medical concepts, such as clustering related conditions or identifying shared risk factors, providing insight into how clinical knowledge is structured and connected.
      
 2. Why it is important to Humana
-3. How to incorporate it into the prototype?
+   - a. This supports more personalized, clinically aligned risk prediction and care planning, which is essential for optimizing healthcare delivery in a value-based care (VBC) model.
+   - b. As a payer working with many provider networks, Humana can benefit from scalable, consistent models that apply broadly while reducing the cost and effort of customizing tools for every partner.
+   - c. This makes it easier to find groups of similar patients, detect patterns in how care is given, and figure out where interventions can make the biggest difference. All of them can help improve population health.
+
+4. How to incorporate it into the prototype?
    
    Basically, I applied the embeddings (n=67,124) trained over the clinical knowledge graph as the initial embeddings for vector DB construction. The original graph data `new_node_map_df.csv` and the embeddings `full_h_embed_hms.pkl` for clinical knowledge embeddings can be found here: [Clinical-knowledge-embeddings Data](clinical_KGEmb)
 
