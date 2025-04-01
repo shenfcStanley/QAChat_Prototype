@@ -46,7 +46,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 - **Embeddings**: 
   - `all-MiniLM-L6-v2` (general-purpose)  
   - `Bio_ClinicalBERT` (clinical language model)  
-  - `Clinical-Knowledge-Embeddings` (concept graph-based)
+  - `Clinical-Knowledge-Embeddings` (medical concept graph-based)
 - **LLMs**: 
   - Main: `Nous-Hermes-2-Mistral-7B` (via `llama-cpp-python`)  
 
