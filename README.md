@@ -27,7 +27,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 **Paper:** [Clinical-knowledge-embeddings Paper](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2)
 
 1. Three Takeaways from the Research
-   - 1. In the current medical coding system, different standardized vocabularies are used for different purposes. The heterogeneity nature makes it difficult to align semantic meaning amongst medical concepts normalized by different codes. In this research, the authors developed a way to unify the coding graph into the embedding space encompassing 67,124 medical concepts from seven different standard vocabularies, making it possible to bring the gaps between different coding standards and better serve for clinical usage.
+   - 1. The study presents a unified embedding space for 67,124 medical concepts across seven standard vocabularies, bridging semantic gaps between heterogeneous coding systems and enabling more consistent clinical interpretation.
    - 2
    - 3
 2. Why it is important to Humana
