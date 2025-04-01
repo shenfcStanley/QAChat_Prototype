@@ -76,7 +76,7 @@ See [Assumption.md](Assumption.md) for full details.
 
 ## Comprehensive Evaluation
 
-Although I used three models to generate the initial embeddings, here I assume the Clinical-Knowledge-Embeddings yield the optimal performance overall based on the initial check, and showcase the evaluation on all 16 queries using this model to assess response accuracy, quality, evidence grounding, and response time. 
+Although I used three models to generate the initial embeddings, here I picked the `clinical-knowledge-embeddings` as it yielded the optimal performance overall based on the initial check, and showcased the evaluation on all 16 queries using this model to assess response accuracy, quality, evidence grounding, and response time. 
 
 #### Business Metrics
 The defined business metrics cover both __qualitative__ and __quantitative__ evaluations:
