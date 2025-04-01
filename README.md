@@ -34,6 +34,32 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 3. How to incorporate it into the prototype?
    
    Basically, I applied the embeddings (n=67,124) trained over the clinical knowledge graph as the initial embeddings for vector DB construction. The original graph data `new_node_map_df.csv` and the embeddings `full_h_embed_hms.pkl` for clinical knowledge embeddings can be found here: [Clinical-knowledge-embeddings Data](clinical_KGEmb)
+
+
+## Data & Inputs
+
+#### Input Paper
+- **Title**: *Correlation of relapse and survival with amplification of the HER-2/neu oncogene* (Slamon et al., Science, 1987)
+- **File**: `data/HER2_Paper.pdf`  
+- **Use**: Sole knowledge source for all QA responses.
+  
+#### Test Queries
+- **Total**: 16 (8 original + 8 augmented)
+- **Categories**: Basic, Clinical, Scientific, Ambiguous
+- **File**: `test/test_queries.csv`
+
+#### Prompts
+- **Query Augmentation**: Few-shot prompt for ephyr-based query generation
+- **Auto Scoring**: Customized prompt for ChatGPT-4o-based query auto scoring
+
+#### Embeddings Compared
+- **MiniLM** – General-purpose
+- **Bio_ClinicalBERT** – Clinical language model
+- **Clinical-Knowledge-Embeddings** – Graph-based concept embeddings
+
+#### Models Used
+- **Main LLM**: `Nous-Hermes-2-Mistral-7B` (via `llama-cpp-python`)
+
 ## Installation Instructions  
 
 <pre>
