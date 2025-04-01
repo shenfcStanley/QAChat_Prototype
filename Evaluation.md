@@ -41,7 +41,7 @@ A total of 16 queries were used, balanced across user types. Half of the queries
 - Acceptable Answer Rate (Human Score ≥ 4): 81.2%
 - Acceptable Answer Rate (LLM ≥ 4): 87.5%
 
-### Human vs. LLM Score Correlation
+#### Human vs. LLM Score Correlation
 
 To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.
 
@@ -49,7 +49,7 @@ To estimate the reliability of using LLM for automatic scoring, Pearson correlat
 
 This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
 
-### Score Comparison by Question Type
+#### Score Comparison by Question Type
 To understand the alignment between LLM-based scoring and human evaluation, we grouped the 16 queries into four categories and compared the average scores.
 
 
@@ -60,7 +60,7 @@ To understand the alignment between LLM-based scoring and human evaluation, we g
 - This suggests room for improvement in handling clinical nuance and ambiguity.
 
 
-### Continuous Improvement Strategy
+## Continuous Improvement Strategy
 
 To ensure the chatbot remains reliable and clinically relevant over time, I propose the following continuous improvement process:
 
