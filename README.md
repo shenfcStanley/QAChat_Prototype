@@ -89,6 +89,16 @@ This suggests that LLM-based scoring can be used as a reasonable proxy for exper
 | What is HER2? | A protein... | HER2 is a protein... | 5 | 5 |
 | How does HER2 ampli... |   HER2 amplification... | Picornavirions have relative ... | 4 | 3 |
 
+
+#### Score Comparison by Question Type
+To understand the alignment between LLM-based scoring and human evaluation, we grouped the 16 queries into four categories and compared the average scores.
+
+![Line chart showing LLM vs Human score trends](imgs/Plot_Category.png)
+
+- The LLM and human scores are closely aligned across all categories, with a **strong agreement in scientific questions**.
+- The largest deviation appears in **clinical questions**, where the LLM slightly overestimates performance.
+- This suggests room for improvement in handling clinical nuance and ambiguity.
+
 See [Evaluation.md](Evaluation.md) for full details.
 
 
