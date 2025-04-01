@@ -29,8 +29,9 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 1. Three Takeaways from the Research
    - a. The study presents a unified embedding space for 67,124 medical concepts across seven standard vocabularies, bridging semantic gaps between heterogeneous coding systems and enabling more consistent clinical interpretation.
      
-   - 2
-   - 3
+   - b. The study showed that unified medical code embeddings can predict chronic disease risk across 4.57 million patients, with clinical validation confirming alignment with established medical knowledge. This set a solid foundation for AI in healthcare.
+
+   - c. 
 2. Why it is important to Humana
 3. How to incorporate it into the prototype?
    
