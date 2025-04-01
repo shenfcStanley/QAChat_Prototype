@@ -38,27 +38,17 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 ## Data & Inputs
 
-#### Input Paper
-- **Title**: *Correlation of relapse and survival with amplification of the HER-2/neu oncogene* (Slamon et al., Science, 1987)
-- **File**: `data/HER2_Paper.pdf`  
-- **Use**: Sole knowledge source for all QA responses.
-  
-#### Test Queries
-- **Total**: 16 (8 original + 8 augmented)
-- **Categories**: Basic, Clinical, Scientific, Ambiguous
-- **File**: `test/test_queries.csv`
-
-#### Prompts
-- **Query Augmentation**: Few-shot prompt for ephyr-based query generation
-- **Auto Scoring**: Customized prompt for ChatGPT-4o-based query auto scoring
-
-#### Embeddings Compared
-- **MiniLM** – General-purpose
-- **Bio_ClinicalBERT** – Clinical language model
-- **Clinical-Knowledge-Embeddings** – Graph-based concept embeddings
-
-#### Models Used
-- **Main LLM**: `Nous-Hermes-2-Mistral-7B` (via `llama-cpp-python`)
+- **Paper**: HER2 breast cancer study (Slamon et al., 1987) — `data/HER2_Paper.pdf`
+- **Queries**: 16 total (8 original + 8 augmented), covering basic, clinical, scientific, and ambiguous types — `test/test_queries.csv`
+- **Prompts**: 
+  - Few-shot QA prompt for answer generation — `/tests/prompts/query_augmentation.txt`
+  - Custom prompt for auto scoring — `/tests/prompts/scoring.txt`
+- **Embeddings**: 
+  - `all-MiniLM-L6-v2` (general-purpose)  
+  - `Bio_ClinicalBERT` (clinical language model)  
+  - `Clinical-Knowledge-Embeddings` (concept graph-based)
+- **LLMs**: 
+  - Main: `Nous-Hermes-2-Mistral-7B` (via `llama-cpp-python`)  
 
 ## Installation Instructions  
 
@@ -130,7 +120,7 @@ See [Evaluation.md](Evaluation.md) for full details.
 
 ## Environment
 - Python version: 3.11.9
-- Key libraries: LangChain, FAISS, huggingface-hub
+- Key libraries: LangChain, FAISS, huggingface-hub, llama-cpp-python
 - OS: Win 11
 - Hardware: 16 GB RAM, 13th Gen Intel(R) Core(TM) i7-1355U   1.70 GHz
 
