@@ -8,7 +8,7 @@ This evaluation assesses the chatbot’s ability to generate clinically accurate
 `Zephyr-7B-Beta` was utilized as a third-party language model for query/data augmentation. 16 queries was generated.
 
 #### LLM-based Scoring and Human-level Scoring
-`ChatGPT-4o` was used for automated result scoring. Prompts for query augmentation and auto scoring is under `tests\prompts`. I serve as the domain expert to conduct human-level scoring.
+`ChatGPT-4o` was used for automated result scoring. Prompts for query augmentation and auto scoring is under `tests\prompts`. I serve as the domain expert to conduct human-level scoring. Both LLM and human-based score ranges from 1 to 5, where 1 indicates incorrect or misleading, 3 indicates mostly correct, but missing key detail or too vague, and 5 means the answer is factually accurate and clearly indicates when information is not present in the reference.
 
 
 ## Test Set
