@@ -10,9 +10,9 @@ In this task, a Q/A chatbot prototype was built leveraging a **Retrieval-Augment
 The overall workflow is designed based on the Retrieval-Augmented Generation (RAG) architecture:
 1. Query Submission
 2. Knowledge (e.g., research paper) Ingestion and Indexing with Three Models
-   - `MiniLM` for general purpose
+   - `all-MiniLM-L6-v2` for general purpose
    - `Bio_ClinicalBERT` for clinical purpose
-   - `Clinical_KGEmb` for leveraging medical ontologies and clinical knowledge.  
+   - `clinical knowledge embeddings` for leveraging medical ontologies and clinical knowledge.  
      **Note:** incorporating the clinical knowledge embeddings research into the prototype  
      **Reference:** [Clinical-knowledge-embeddings GitHub Repository](https://github.com/mims-harvard/Clinical-knowledge-embeddings)
 
