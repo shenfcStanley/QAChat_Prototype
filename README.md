@@ -69,7 +69,7 @@ See [Assumption.md](Assumption.md) for full details.
 Although I used three models to generate the initial embeddings, here I assume the Clinical-Knowledge-Embeddings yield the optimal performance overall based on the initial check, and showcase the evaluation on all 16 queries using this model to assess response accuracy, quality, evidence grounding, and response time. 
 
 #### Business Metrics
-The defined business metrics cover both qualitative and quantitative evaluations:
+The defined business metrics cover both __qualitative__ and __quantitative__ evaluations:
 - Mean response time (sec): 50.47 
 - Mean LLM-based score (1-5): 4.25
 - Mean Human-level score (1-5): 4.19
