@@ -43,12 +43,6 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 - **Prompts**: 
   - Few-shot QA prompt for answer generation — `/tests/prompts/query_augmentation.txt`
   - Custom prompt for auto scoring — `/tests/prompts/scoring.txt`
-- **Embeddings**: 
-  - `all-MiniLM-L6-v2` (general-purpose)  
-  - `Bio_ClinicalBERT` (clinical language model)  
-  - `Clinical-Knowledge-Embeddings` (medical concept graph-based)
-- **LLMs**: 
-  - Main: `Nous-Hermes-2-Mistral-7B` (via `llama-cpp-python`)  
 
 ## Installation Instructions  
 
