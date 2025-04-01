@@ -110,5 +110,6 @@ See [Evaluation.md](Evaluation.md) for full details.
 
 ## Author
 
-- **Feichen Shen** – [@shenfcStanley](https://github.com/shenfcStanley/QAChat_Prototype/tree/main)  
+- **Feichen Shen** – [@shenfcStanley](https://github.com/shenfcStanley/QAChat_Prototype/tree/main)
+- PhD in Computer Science | Clinical NLP & Healthcare AI | Data Scientist | AI/ML Engineer
 
