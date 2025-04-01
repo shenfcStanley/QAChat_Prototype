@@ -27,11 +27,12 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 **Paper:** [Clinical-knowledge-embeddings Paper](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2)
 
 1. Three Takeaways from the Research
-   - a. The study presents a unified embedding space for 67,124 medical concepts across seven standard vocabularies, bridging semantic gaps between heterogeneous coding systems and enabling more consistent clinical interpretation.
+   - a. The embeddings allow medical codes (diagnoses, labs, medications) to be represented in a way that reflects their real-world clinical relationships. This enables AI models to go beyond raw data and incorporate domain knowledge, improving both accuracy and interpretability, which can ultimately enable the integration of clinical knowledge into precision medicine models.
      
-   - b. The study showed that unified medical code embeddings can predict chronic disease risk across 4.57 million patients, with clinical validation confirming alignment with established medical knowledge. This set a solid foundation for AI in healthcare.
+   - b. Since the embeddings are derived from a large clinical knowledge graph rather than site-specific data, they enable the development of models that generalize across health systems and geographies—reducing the need for retraining and supporting seamless sharing across institutions.
 
-   - c. 
+   - c. The embeddings uncover hidden relationships between medical concepts, such as clustering related conditions or identifying shared risk factors, providing insight into how clinical knowledge is structured and connected.
+     
 2. Why it is important to Humana
 3. How to incorporate it into the prototype?
    
