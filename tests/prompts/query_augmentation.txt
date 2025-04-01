@@ -5,15 +5,15 @@ Below are examples of questions from different user types:
 - What is HER2?
 - Is HER2 a gene or a protein?
 
-### Clinician (Medical Relevance)
+### Clinical (Medical Relevance)
 - What treatment options are mentioned for HER2-positive patients?
 - How does HER2 amplification affect survival rates?
 
-### Researcher (Study Design & Outcomes)
+### Scientific (Study Design & Outcomes)
 - How many patients were included in the HER2 study?
 - What statistical methods were used to evaluate HER2’s effect on outcomes?
 
-### Ambiguous or Adversarial
+### Ambiguous or Others
 - Who discovered HER2?
 - Is HER2 mentioned in the conclusion?
 Now generate 8 new questions from a diverse mix of users (at least 2 per category) that could realistically be asked about this HER2 publication.
