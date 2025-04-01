@@ -35,9 +35,9 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
      
 2. Why it is important to Humana
    - a. This supports more personalized, clinically aligned risk prediction and care planning, which is essential for optimizing healthcare delivery in a value-based care (VBC) model.
-   - 
+     
    - b. As a payer working with many provider networks, Humana can benefit from scalable, consistent models that apply broadly while reducing the cost and effort of customizing tools for every partner.
-   - 
+     
    - c. This makes it easier to find groups of similar patients, detect patterns in how care is given, and figure out where interventions can make the biggest difference. All of them can help improve population health.
 
 4. How to incorporate it into the prototype?
