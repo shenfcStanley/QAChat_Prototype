@@ -102,4 +102,9 @@ To understand the alignment between LLM-based scoring and human evaluation, we g
 
 See [Evaluation.md](Evaluation.md) for full details.
 
+## Environment
+- Python version: 3.11.9
+- Key libraries: LangChain, FAISS
+- OS: Win 11
+- Hardware: 16 GB RAM, 13th Gen Intel(R) Core(TM) i7-1355U   1.70 GHz
 
