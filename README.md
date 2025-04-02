@@ -105,7 +105,7 @@ To estimate the reliability of using LLM for automatic scoring, Pearson correlat
 
 **Correlation**: 0.91  
 
-This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
+This suggests that LLM-based scoring can be used as a reasonable approach for expert review in future iterations.
 
 
 
