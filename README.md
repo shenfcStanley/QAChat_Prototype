@@ -24,7 +24,7 @@ The evaluation framework is outlined below. A total of 16 test queries were used
 
 For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) and [Evaluation.md](Evaluation.md). Assumptions made for methods and evaluations can be found at [Assumptions](#assumptions) and [Assumptions.md](Assumptions.md)
 
-<img src="imgs/eval_framework.png" alt="Evaluation Framework" width="550"/>
+<img src="imgs/eval_framework2.png" alt="Evaluation Framework" width="550"/>
 
 ## Lessons Learned from the Clinical Knowledge Embeddings Work
 **Reference:** [Clinical-knowledge-embeddings GitHub Repository](https://github.com/mims-harvard/Clinical-knowledge-embeddings)  
