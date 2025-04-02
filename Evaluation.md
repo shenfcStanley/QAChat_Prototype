@@ -1,6 +1,6 @@
 ## Evaluation Overview
 
-This evaluation assesses the chatbot’s ability to generate clinically accurate, grounded answers from a HER2 breast cancer paper, using Clinical-Knowledge-Embeddings as the default selected strategy and Mistral-7B as the open source LLM.
+This evaluation assesses the chatbot’s ability to generate grounded answers from a HER2 breast cancer paper, using Clinical-Knowledge-Embeddings as the default selected strategy and Mistral-7B as the open source LLM.
 
 **Assumption:** Based on initial testing, Clinical-Knowledge-Embeddings provided the most clinically relevant retrieval results. Thus, evaluation was scoped to this embedding configuration for all 16 queries.
 
