@@ -79,7 +79,7 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
  __Shen, Feichen__, et al. "HPO2Vec+: Leveraging heterogeneous knowledge resources to enrich node embeddings for the Human Phenotype Ontology." Journal of 
  biomedical informatics 96 (2019): 103246. [DOI Link](https://www.sciencedirect.com/science/article/pii/S1532046419301650?via%3Dihub)
 5. **Answer Quality Audits**
-   - Spot-check borderline responses (score 3–4) with clinical experts.
+   - Spot-check borderline responses (score 3–4) with domain experts.
    - Log low-rated queries for retraining or fine-tuning.
 
 This loop establishes a scalable framework for maintaining chatbot quality over time, aligned with real-world user and clinical expectations.
