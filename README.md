@@ -52,7 +52,7 @@ For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) 
 ## Data & Inputs
 
 - **Paper**: HER2 breast cancer study (Slamon et al., 1987) — `data/HER2_Paper.pdf`
-- **Queries**: 16 total (8 original + 8 augmented), covering basic, clinical, scientific, and ambiguous types — `test/test_queries.csv`
+- **Queries**: 16 total (8 original + 8 augmented), covering basic, clinical, scientific, and ambiguous types — `tests/testdata/test_queries.csv`
 - **Prompts**: 
   - Few-shot prompt for query generation — `/tests/prompts/query_augmentation.txt`
   - Custom prompt for auto scoring — `/tests/prompts/scoring.txt`
