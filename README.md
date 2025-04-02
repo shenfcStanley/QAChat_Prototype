@@ -60,6 +60,10 @@ For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) 
 ## Installation Instructions  
 Python version: 3.11.9
 <pre>
+conda create -n your_env python=3.11.9
+conda activate your_env
+</pre>
+<pre>
 git clone https://github.com/shenfcStanley/QAChat_Prototype.git
 cd QAChat_Prototype
 pip install -r requirements.txt
