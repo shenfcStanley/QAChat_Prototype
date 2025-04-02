@@ -50,7 +50,7 @@ To estimate the reliability of using LLM for automatic scoring, Pearson correlat
 This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
 
 #### Score Comparison by Question Type
-To understand the alignment between LLM-based scoring and human evaluation, we grouped the 16 queries into four categories and compared the average scores.
+To understand the alignment between LLM-based scoring and human evaluation, I grouped the 16 queries into four categories and compared the average scores.
 
 
 ![Line chart showing LLM vs Human score trends](imgs/Plot_Category.png)
