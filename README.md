@@ -50,7 +50,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 - **Paper**: HER2 breast cancer study (Slamon et al., 1987) — `data/HER2_Paper.pdf`
 - **Queries**: 16 total (8 original + 8 augmented), covering basic, clinical, scientific, and ambiguous types — `test/test_queries.csv`
 - **Prompts**: 
-  - Few-shot QA prompt for answer generation — `/tests/prompts/query_augmentation.txt`
+  - Few-shot QA prompt for query generation — `/tests/prompts/query_augmentation.txt`
   - Custom prompt for auto scoring — `/tests/prompts/scoring.txt`
 
 ## Installation Instructions  
