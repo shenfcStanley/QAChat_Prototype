@@ -22,7 +22,8 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 The evaluation framework is outlined below. A total of 16 test queries were used: 8 were manually designed to cover 4 categories, and 8 were generated using an LLM-based data augmentation approach. The model's performance was evaluated using business-defined metrics, comparing LLM-generated responses with human-level answers.  
 
-For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) and [Evaluation.md](Evaluation.md).
+For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) and [Evaluation.md](Evaluation.md). Assumptions made for methods and evaluations can be found at [Assumptions](#assumptions) and [Assumptions.md](Assumptions.md)
+
 <img src="imgs/eval_framework.png" alt="Evaluation Framework" width="550"/>
 
 ## Lessons Learned from the Clinical Knowledge Embeddings Work
