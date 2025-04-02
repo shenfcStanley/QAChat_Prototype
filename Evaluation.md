@@ -72,7 +72,7 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
    - Track KPIs such as accuracy, evidence grounding, and latency over time.
    - Monitor drift in model responses or embedding performance.
 3. **Automated Scoring & Review**
-   - Use LLM-based scoring as a fast feedback proxy.
+   - Use LLM-based scoring as a fast feedback approach.
    - Periodically compare LLM-based and human scores to maintain alignment.
 4. **Embeddings Updates**
    - I have led the efforts to develop node embeddings for the Human Phenotype Ontology (HPO) during my time at Mayo Clinic. The model was named as `HPO2Vec+`. It worth to explore if this work can be incorporated into the knowledge embeddings as a complementary piece.  
