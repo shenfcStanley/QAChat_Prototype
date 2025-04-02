@@ -22,6 +22,9 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
+The evaluation framework is shown below. 8 queries were designed originally covering 4 categories, and 8 additional queries were generated using LLM model. 16 queries are in the test set and the LLM-based scoring and Human-level performance were compared based on defined business metrics. More detailed evaluation results are here and here
+
+
 ## Lessons Learned from the Clinical Knowledge Embeddings Work
 **Reference:** [Clinical-knowledge-embeddings GitHub Repository](https://github.com/mims-harvard/Clinical-knowledge-embeddings)  
 **Paper:** [Clinical-knowledge-embeddings Paper](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2)
