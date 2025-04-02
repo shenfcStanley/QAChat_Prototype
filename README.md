@@ -117,7 +117,7 @@ This suggests that LLM-based scoring can be used as a reasonable approach for ex
 
 
 #### Score Comparison by Question Type
-To understand the alignment between LLM-based scoring and human evaluation, we grouped the 16 queries into four categories and compared the average scores.  
+To understand the alignment between LLM-based scoring and human evaluation, I grouped the 16 queries into four categories and compared the average scores.  
 
 <img src="imgs/Plot_Category.png" alt="Line chart showing LLM vs Human score trends" width="550"/>
 
