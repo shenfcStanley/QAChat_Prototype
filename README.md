@@ -115,10 +115,10 @@ This suggests that LLM-based scoring can be used as a reasonable approach for ex
 
 
 #### Example QA Pairs
-| Question | Answer | Context | LLM-based Score | Human-level Score |
-|----------|--------|--------------|----------|----------|
-| What is HER2? | A protein... | HER2 is a protein... | 5 | 5 |
-| How does HER2 ampli... |   HER2 amplification... | Picornavirions have relative ... | 4 | 3 |
+| Question | Answer | Context | Response Time (s) | LLM-based Score | Human-level Score |
+|----------|--------|--------------|----------|----------|----------|
+| What is HER2? | A protein... | HER2 is a protein... | 44.58 | 5 | 5 |
+| How does HER2 ampli... |   HER2 amplification... | Picornavirions have relative ... | 8.01 | 4 | 3 |
 
 
 #### Score Comparison by Question Type
