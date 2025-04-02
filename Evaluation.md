@@ -75,7 +75,7 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
    - Use LLM-based scoring as a fast feedback approach.
    - Periodically compare LLM-based and human scores to maintain alignment.
 4. **Embeddings Updates**
-   - I have led the efforts to develop node embeddings for the Human Phenotype Ontology (HPO) during my time at Mayo Clinic. The model was named as `HPO2Vec+`. It worth to explore if this work can be incorporated into the knowledge embeddings as a complementary piece.  
+   - I have led the efforts to develop node embeddings for the Human Phenotype Ontology (HPO) during my time at Mayo Clinic. The model was named as `HPO2Vec+`. It worth to explore if this work can be incorporated into the clinical knowledge embeddings as a complementary piece.  
  __Shen, Feichen__, et al. "HPO2Vec+: Leveraging heterogeneous knowledge resources to enrich node embeddings for the Human Phenotype Ontology." Journal of 
  biomedical informatics 96 (2019): 103246. [DOI Link](https://www.sciencedirect.com/science/article/pii/S1532046419301650?via%3Dihub)
 5. **Answer Quality Audits**
