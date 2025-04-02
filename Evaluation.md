@@ -38,14 +38,14 @@ A total of 16 queries were used, balanced across user types. Half of the queries
 - Mean response time (sec): 50.47 
 - Mean LLM-based score (1-5): 4.25
 - Mean Human-level score (1-5): 4.19
-- Acceptable Answer Rate (Human Score ≥ 4): 81.2%
-- Acceptable Answer Rate (LLM ≥ 4): 87.5%
+- Acceptable Answer Rate (Human Score ≥ 4): 75%
+- Acceptable Answer Rate (LLM ≥ 4): 81.3%
 
 #### Human vs. LLM Score Correlation
 
 To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.
 
-- **Correlation**: 0.91
+- **Correlation**: 0.93
 
 This suggests that LLM-based scoring can be used as a reasonable proxy for expert review in future iterations.
 
