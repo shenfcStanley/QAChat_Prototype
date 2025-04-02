@@ -66,7 +66,7 @@ To ensure the chatbot remains reliable and clinically relevant over time, I prop
 
 1. **User Feedback Collection**
    - In a production setting, collect explicit feedback (e.g., good or bad buttons) or satisfaction ratings. Buttons can be added into the UI.
-   - Capture implicit signals like query rephrasing, follow-up questions, and session abandonment.
+   - Capture implicit signals like query rephrasing and follow-up questions.
 2. **Performance Monitoring**
    - Maintain a benchmark test set (e.g., the current 16 queries) for weekly/monthly evaluations.
    - Track KPIs such as accuracy, evidence grounding, and latency over time.
