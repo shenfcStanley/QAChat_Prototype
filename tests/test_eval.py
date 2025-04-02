@@ -39,7 +39,7 @@ def shorten_sentence(text, max_words=200):
     words = text.split()
     return " ".join(words[:max_words]) + ("..." if len(words) > max_words else "")
 
-pdf_path = "data/HER2_Paper.pdf"
+pdf_path = "../data/HER2_Paper.pdf"
 processor = DataReader(chunk_size=1000, chunk_overlap=200)
 chunks = processor.load_and_split(pdf_path)
 
@@ -54,8 +54,8 @@ print(chunks[0].page_content)  # Example output
 
 ## Use pre-trained Clinical Knowledge Embeddings
 embedding_model = ClinicalKGEmbedding(
-        mapping_csv_path="clinical_KGEmb/new_node_map_df.csv",
-        embedding_pkl_path="clinical_KGEmb/full_h_embed_hms.pkl"
+        mapping_csv_path="../clinical_KGEmb/new_node_map_df.csv",
+        embedding_pkl_path="../clinical_KGEmb/full_h_embed_hms.pkl"
     )
 
 # vector db
@@ -65,7 +65,7 @@ retriever = db.as_retriever(search_kwargs={"k": 2})
 print("Retriever:", retriever)
 
 llm = LlamaCpp(
-    model_path="models/Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf",
+    model_path="../models/Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf",
     n_ctx=2048,
     temperature=0.1,
     max_tokens=512
@@ -96,7 +96,7 @@ with open('tests/testdata/queries.txt', 'r', encoding='utf-8') as file:
     queries = [line.strip() for line in file]
 
 # output evaluation file
-output_path = "eval_results_4.csv"
+output_path = "eval_results.csv"
 fieldnames = ["query", "answer", "context", "response_time_sec"]
 
 with open(output_path, mode="w", newline='', encoding="utf-8") as f:
