@@ -108,7 +108,7 @@ The defined business metrics cover both __qualitative__ and __quantitative__ eva
 
 To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.  
 
-**Correlation**: 0.91  
+**Correlation**: 0.93  
 
 This suggests that LLM-based scoring can be used as a reasonable approach for expert review in future iterations.
 
