@@ -33,7 +33,7 @@ For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) 
 1. Three Takeaways from the Research
    - a. The embeddings allow medical codes (diagnoses, labs, medications) to be represented in a way that reflects their real-world clinical relationships. This enables AI models to go beyond raw data and incorporate domain knowledge, improving both accuracy and interpretability, which can ultimately enable the integration of clinical knowledge into precision medicine models.
      
-   - b. Since the embeddings are derived from a large clinical knowledge graph rather than site-specific data, they enable the development of models that generalize across health systems and geographies—reducing the need for retraining and supporting seamless sharing across institutions.
+   - b. Since the embeddings are derived from a large clinical knowledge graph rather than site-specific data, they enable the development of models that generalize across health systems, which reduces the need for retraining and supporting interoperability and data sharing across institutions.
 
    - c. The embeddings uncover hidden relationships between medical concepts, such as clustering related conditions or identifying shared risk factors, providing insight into how clinical knowledge is structured and connected.
      
