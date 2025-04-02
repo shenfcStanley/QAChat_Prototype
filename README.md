@@ -58,7 +58,7 @@ For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) 
   - Custom prompt for auto scoring — `/tests/prompts/scoring.txt`
 
 ## Installation Instructions  
-
+Python version: 3.11.9
 <pre>
 git clone https://github.com/shenfcStanley/QAChat_Prototype.git
 cd QAChat_Prototype
