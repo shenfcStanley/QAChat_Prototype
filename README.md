@@ -83,7 +83,7 @@ Three embeddings can be used:
 
 #### 3. A notebook `tutorial.ipynb` under `tutorial` shows a demo of how the answer looks like and how the supporting evidence is presented.
 
-#### 4. The `test_eval.py` script in the `tests` directory is used to generate answers for 16 tested queries `queries.txt` stored under `tests/testdata`.  
+#### 4. The `test_eval.py` script in the `tests` directory is used to generate answers for 16 tested queries `queries.txt` stored under `tests/testdata`. Test results are under `tests/testresults`
 `Zephyr-7B-Beta` was utilized as a third-party language model for query/data augmentation and `ChatGPT-4o` was used for automated result scoring. Prompts for query augmentation and auto scoring is under `tests\prompts`
 
 ## Assumptions
