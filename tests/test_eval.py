@@ -92,7 +92,7 @@ qa_chain = RetrievalQA.from_chain_type(
     return_source_documents=True
 )
 
-with open('tests/testdata/queries.txt', 'r', encoding='utf-8') as file:
+with open('../testdata/queries.txt', 'r', encoding='utf-8') as file:
     queries = [line.strip() for line in file]
 
 # output evaluation file
