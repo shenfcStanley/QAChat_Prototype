@@ -96,7 +96,7 @@ with open('testdata/queries.txt', 'r', encoding='utf-8') as file:
     queries = [line.strip() for line in file]
 
 # output evaluation file
-output_path = "eval_results.csv"
+output_path = "testresults/eval_results.csv"
 fieldnames = ["query", "answer", "context", "response_time_sec"]
 
 with open(output_path, mode="w", newline='', encoding="utf-8") as f:
