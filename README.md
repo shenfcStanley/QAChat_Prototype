@@ -20,7 +20,7 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
 6. `Mistral-7B` is used as the open source LLM. Response is generated after post-processing. Evidence from articles will be provided as reference resources.
 <img src="imgs/workflow.png" alt="Chatbot Illustration" width="550"/>
 
-The evaluation framework is outlined below. A total of 16 test queries were used: 8 were manually designed to cover 4 categories, and 8 were generated using an LLM-based data augmentation approach. The model's performance was evaluated using business-defined metrics, comparing LLM-generated responses with human-level answers.  
+The evaluation framework is outlined below. A total of 16 test queries were used: 8 were manually designed to cover 4 categories, and 8 were generated using an LLM-based data augmentation approach. The model's performance was evaluated using defined business metrics, comparing LLM-generated responses with human-level answers.  
 
 For detailed results, see [Comprehensive Evaluation](#comprehensive-evaluation) and [Evaluation.md](Evaluation.md). Assumptions made for methods and evaluations can be found at [Assumptions](#assumptions) and [Assumptions.md](Assumptions.md)
 
