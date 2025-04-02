@@ -114,7 +114,7 @@ This suggests that LLM-based scoring can be used as a reasonable approach for ex
 
 
 
-#### Example QA Pairs
+#### Example Test Results
 | Question | Answer | Context | Response Time (s) | LLM-based Score | Human-level Score |
 |----------|--------|--------------|----------------|----------|----------|
 | What is HER2? | A protein... | HER2 is a protein... | 44.58 | 5 | 5 |
