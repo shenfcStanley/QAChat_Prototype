@@ -99,7 +99,7 @@ The defined business metrics cover both __qualitative__ and __quantitative__ eva
 - Mean LLM-based score (1-5): 4.25
 - Mean Human-level score (1-5): 4.19
 - Acceptable Answer Rate (Human Score ≥ 4): 81.2%
-- Acceptable Answer Rate (LLM ≥ 4): 87.5%
+- Acceptable Answer Rate (LLM Score ≥ 4): 87.5%
 
 To estimate the reliability of using LLM for automatic scoring, Pearson correlation was calculated between human-labeled and LLM-based scores.  
 
