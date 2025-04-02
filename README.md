@@ -15,7 +15,6 @@ The overall workflow is designed based on the Retrieval-Augmented Generation (RA
    - `clinical knowledge embeddings` for leveraging medical ontologies and clinical knowledge.  
      **Note:** incorporating the clinical knowledge embeddings research into the prototype  
      **Reference:** [Clinical-knowledge-embeddings GitHub Repository](https://github.com/mims-harvard/Clinical-knowledge-embeddings)
-
 4. Semantic search
 5. Contextual Prompt Design (Query + Context -> Answer)
 6. `Mistral-7B` is used as the open source LLM. Response is generated after post-processing. Evidence from articles will be provided as reference resources.
