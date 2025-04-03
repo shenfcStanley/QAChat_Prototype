@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from langchain.vectorstores import FAISS
 from difflib import SequenceMatcher
-from process_KGEmb import ClinicalKGEmbedding  # Make sure this file exists
+from process_KGEmb import ClinicalKGEmbedding
 
 os.environ["OCR_AGENT"] = "tesseract"
 
